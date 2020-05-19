@@ -10,12 +10,13 @@ As consultas são interpretadas em tempo de execução no servidor usando um sis
 GraphQl não está vinculado a nenhum tipo de banco de dados.
 
 ### Conceitos Básicos
+----
 
-**Type System:** Sistema de tipos que usamos para descrever nossos dados;
-**Queries:** Obtém dados da nossa API (read, **leitura de dados**);
-**Mutations:** Faz alterações nos dados da nossa api (write, **criar/alterar/deletar dados da nossa API**);
-**Subscriptions:** Permite ouvir mudanças em "tempo real" (real-time, **conseguimos ouvir mudanças em tempo real dos dados**);
-**Schema:** Define o "Esquema" da nossa API, um container para todos os tipos da nossa API, dentro do **Schema** é aonde que teremos todas nossas **Queries, Mutations, Subscriptions** e quando definimos toda a nossa estrutura da nossa API chamamos de (GraphQL Schema Definition - SDL);
+- **Type System:** Sistema de tipos que usamos para descrever nossos dados;
+- **Queries:** Obtém dados da nossa API (read, **leitura de dados**);
+- **Mutations:** Faz alterações nos dados da nossa api (write, **criar/alterar/deletar dados da nossa API**);
+- **Subscriptions:** Permite ouvir mudanças em "tempo real" (real-time, **conseguimos ouvir mudanças em tempo real dos dados**);
+- **Schema:** Define o "Esquema" da nossa API, um container para todos os tipos da nossa API, dentro do **Schema** é aonde que teremos todas nossas **Queries, Mutations, Subscriptions** e quando definimos toda a nossa estrutura da nossa API chamamos de (GraphQL Schema Definition - SDL);
 
 ### Type System
 ----
